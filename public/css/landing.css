@@ -1,0 +1,159 @@
+
+.navbar {
+    background-color: #F7EED3;
+}
+.navbar .nav-linkz{
+    display: inline-block;
+    /* background-color: #F8FFE8; */
+    color: black;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    /* border-radius: 5px; */
+    font-size: 12px;
+}
+header{
+    background-color: #F7EED3;
+}
+.sambutan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.sambutan p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.sambutan a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F7EED3;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.sub-judul {
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background-color: #F7EED3;
+    gap: 20px;
+}
+.card-container {
+    display: flex; /* Menggunakan Flexbox untuk menyusun card dalam satu baris */
+    justify-content: space-evenly;/* Ruang antara card */
+    flex-wrap: wrap; /* Jika ada lebih dari tiga card, baris baru akan dibuat */
+    gap: 10px;
+    
+}
+
+.card {
+    flex: 1; /* Setiap card mengambil ruang yang sama */
+    max-width: 25%; /* Maksimal lebar card adalah 30% dari kontainer */
+    height: 250px;
+    margin: 10px; /* Jarak antara card */
+    padding: 20px; /* Padding di dalam card */
+    border: 1px solid #ccc; /* Border card */
+    background-color: #F8FFE8;
+    border-radius: 8px; /* Sudut melengkung */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan */
+    text-align: center; /* Memusatkan teks */
+    word-wrap: break-word;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+.card:hover{
+    background-color: #e0d5c3;
+}
+.sub-judul h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+.sub-judul p {
+    line-height: 1.4;
+    text-align: justify;
+}
+@media screen and (max-width: 768px) {
+    .card {
+        max-width: 45%; /* Ukuran card menyesuaikan di layar kecil */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        max-width: 100%; /* Lebar penuh pada layar sangat kecil */
+    }
+}
+.about-us {
+    text-align: center;
+}
+
+.about-us h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.info-box {
+    background-color: #F7EED3;
+    border-radius: 10px;
+    padding: 20px;
+    width: 140px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.info-box:hover {
+    background-color: #e0d5c3;
+}
+
+.info-box img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background-color: #F7EED3;
+}
+.copyright p {
+    font-size: 15px;
+    margin: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #F8FFE8;
+}

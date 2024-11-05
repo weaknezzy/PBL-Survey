@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7EED3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.survey-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.survey-card {
+    display: flex;
+    background-color: #F8FFE8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 90%;
+}
+
+.image-section {
+    width: 45%; /* Atur lebar gambar */
+    overflow: hidden;
+    border-radius: 10px 0 0 10px;
+    padding: 20px;
+    
+    
+}
+
+.image-section img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.image-section button 
+{
+    margin-top: 10px;
+    background-color: #F7EED3;
+    color: #000000;
+    padding: 10px 15px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 12px;
+}
+
+.content-section {
+    padding: 20px;
+    position: relative;
+    flex-grow: 1;
+    width: 55%;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.cancel-btn {
+    background-color: #F7EED3;
+    color: #000000;
+    padding: 10px 15px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    width: auto;
+    font-size: 10px;
+    white-space: nowrap; /* Agar teks tidak membungkus */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.save-btn {
+    background-color: #F7EED3;
+    color: #000000;
+    padding: 10px 15px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    width: auto;
+    font-size: 10px;
+    margin-left: 10px;
+    white-space: nowrap; /* Agar teks tidak membungkus */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+label{
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    background-color: #F7EED3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size:12px;
+}
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    background-color: #F7EED3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size:12px;
+}
+
+textarea::placeholder {
+    font-size:12px;
+}

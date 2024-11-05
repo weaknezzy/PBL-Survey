@@ -1,0 +1,43 @@
+body,html {
+    background-color: #F8FFE8 !important; /* Ganti dengan warna yang Anda inginkan */
+}
+.navbar {
+    background-color: #F7EED3;
+}
+.navbar .merk {
+    font-style: arial;
+    font-size: 27px;
+}
+.card {
+    width: 1400px; /* Lebar card */
+    height: 200px; /* Tinggi card */
+    border: 1px solid #555;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+    padding: 20px; /* Jarak dalam */
+    margin: 20px auto; /* Pusatkan card */
+    background-color: #F7EED3 !important; /* Sama dengan warna latar belakang body */
+    overflow: hidden; /* Menyembunyikan konten yang meluap */
+}
+.card .header {
+    font-size: 1.5em; /* Ukuran font judul */
+    color: #000000; /* Warna teks judul */
+    margin-bottom: 20px;
+    background-color: #F7EED3;
+}
+.card-content {
+    font-size: 1em; /* Ukuran font konten */
+}
+.card-content a{
+    padding: 10px 20px; /* Jarak dalam tombol */
+    border: none; /* Menghilangkan border default */
+    border-radius: 8px; /* Sudut melengkung untuk tombol */
+    background-color: #F8FFE8; /* Warna latar belakang tombol */
+    color: #333; /* Warna teks tombol */
+    cursor: pointer; /* Menampilkan kursor pointer saat hover */
+    transition: background-color 0.3s ease; /* Transisi saat hover  */
+}
+
+.card-content a:hover{
+    background-color: #e0d5c3; /* Warna latar belakang saat hover */
+}

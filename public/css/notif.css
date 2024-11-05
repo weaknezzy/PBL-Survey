@@ -1,0 +1,12 @@
+.navbar{
+    background-color: #F7EED3;
+}
+
+.navbar .name-project{
+    font-style: arial;
+    font-size: 27px;
+}
+
+.waktu{
+    font-size: 0.8em; /* Atur ukuran font sesuai kebutuhan */
+}
